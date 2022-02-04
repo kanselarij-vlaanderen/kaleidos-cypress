@@ -1,5 +1,5 @@
-FROM cypress/included:4.7.0
+FROM cypress/included:9.4.1
 
-RUN npm i "cypress-file-upload@3.5.0" "cypress-wait-until@1.7.1"
+RUN npm i "cypress-file-upload@5.0.8" "dayjs@1.10.7"
 
 ENTRYPOINT ["tail", "-f", "/dev/null"]
