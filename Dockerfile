@@ -1,7 +1,7 @@
-FROM cypress/included:12.17.4
+FROM cypress/included:15.6.0
 
 WORKDIR /app
-RUN npm i "dayjs@1.11.10"
+RUN npm i "dayjs@1.11.19"
 COPY . .
 
 ENTRYPOINT ["tail", "-f", "/dev/null"]
